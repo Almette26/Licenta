@@ -1,13 +1,12 @@
-<!doctype html>
+<x-layout>
+    <article>
+        <h1> <?= $post->title; ?></h1>
+        <div>
+            {!! $post->body !!}
+        </div>
+    </article>
 
-<title>Licenta</title>
-<link rel="stylesheet" href="app.css">
+    <a href="/">Go Back</a>
+</x-layout>
 
-<body>
-<article>
-    <?= $post; ?>
-</article>
 
-<a href="/">Go Back</a>
-
-</body>
