@@ -1,1 +1,0 @@
-<butt{{$attributes}}>{{$slot}}</butt>
